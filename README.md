@@ -10,3 +10,14 @@ functions.py contains all the function needed in ipynb files.
 FeatureEngineering.ipynb is the code for the feature selection process. The original feature selection result is saved in folder docs, named featureEngineering_outputlog.xlsx
 
 GBR.ipynb is the code for Gradient boosting regression model training. The code of the training of the remaining 6 models are in folder otherModels.The training code requires database file (Data_base.xlsx) and feature selection result file (featureEngineering_outputlog.xlsx). After training, the model needs to be saved.
+
+Rank-based prediction.ipynb is the code for the prediction of unknown composition and visualization of the results.The code requires ML model file, FullPredictiondata.csv, UMAP.csv, and Predictionphasedata.csv in the folder docs to work. 
+
+FullPredictiondata.csv is the entire Ni-Cr-Co-Al-Fe compositional space, at 1 at% intervals.
+
+UMAP.csv is the umap distance of the Ni-Cr-Co-Al-Fe compositional space.
+
+Predictionphasedata.csv is the final candidate composition with CALPHAD result. 
+
+The above files are pre-calculated For ease of use and saving time.
+

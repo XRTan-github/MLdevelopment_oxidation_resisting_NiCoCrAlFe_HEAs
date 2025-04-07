@@ -21,3 +21,6 @@ Predictionphasedata.csv is the final candidate composition with CALPHAD result.
 
 The above files are pre-calculated For ease of use and saving time.
 
+# Citing
+The reference for the paper is the following:
+Tan, Xingru, William Trehern, Aditya Sundar, Yi Wang, Saro San, Tianwei Lu, Fan Zhou et al. "Machine learning and high-throughput computational guided development of high temperature oxidation-resisting Ni-Co-Cr-Al-Fe based high-entropy alloys." npj Computational Materials 11, no. 1 (2025): 93.
